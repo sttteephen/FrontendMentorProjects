@@ -1,0 +1,68 @@
+$red: hsl(0, 100%, 74%) 
+$green: hsl(154, 59%, 51%)
+$blue : hsl(248, 32%, 49%)
+$dark_blue: hsl(249, 10%, 26%) 
+$grayish_blue: hsl(246, 25%, 77%)
+
+$border-raduis: 10px
+$font: 'Poppins', sans-serif
+
+body
+    font-family: $font
+    background: url("images/bg-intro-desktop.png")
+    background-color: $red
+    color: white
+
+.container
+    width: 90%
+    margin: 100px auto
+    display: flex
+
+section
+    width: 900rem
+
+h1
+    font-weight: 700
+    font-size: 3rem
+
+#intro_p
+    font-weight: 400
+
+#try_it
+    background: $blue
+    font-weight: 400
+    color: $grayish_blue
+    text-align: center
+    border-radius: $border-raduis
+    padding: 0.8rem 0 0.8rem 0
+    box-shadow: 0px 5px 2px #D76667
+    margin-bottom: 1rem
+
+    strong
+        font-weight: 500
+        color: white
+
+#details
+    background: white
+    text-align: center
+    border-radius: $border-raduis
+    box-shadow: 0px 5px 2px #D76667
+    padding: 1rem
+
+input
+    font-family: $font
+    font-weight: 600
+    display: block
+    width: 85%
+    border: 1px solid $grayish_blue
+    border-radius: 5px
+    padding: 1rem 0rem 1rem 1rem
+    margin: 1rem auto
+
+#terms
+    color: $grayish_blue
+    font-size: 0.8rem
+
+    a
+        color: $red
+        font-weight: 600

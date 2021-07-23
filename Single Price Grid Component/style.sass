@@ -1,0 +1,108 @@
+$cyan: #2EB3B1
+$lighter_cyan: #4CBEBD
+$bright_yellow: hsl(71, 73%, 54%)
+$light_gray: hsl(204, 43%, 93%)
+$grayish_blue: hsl(218, 22%, 67%)
+$font: 'Karla', sans-serif
+$border-raduis: 10px
+
+body
+    font-family: $font
+    font-size: 16px
+    background-color: beige
+
+#container
+    width: 700px
+    margin: 150px auto 0px auto
+    display: flex
+    flex-direction: row
+    flex-flow: wrap
+
+section
+    padding: 30px
+    margin: 0px
+
+h1
+    color: $cyan
+    padding-bottom: 10px
+    font-size: 25px
+
+h2
+    color: white
+
+.green_text
+    color: $bright_yellow
+    font-weight: bold
+
+.gray_text
+    color: $grayish_blue
+
+.light_gray_text
+    color: $light_gray
+
+#intro
+    background-color: white
+    border-top-left-radius: $border-raduis
+    border-top-right-radius: $border-raduis
+    width: 800px
+
+#pricing
+    background-color: $cyan
+    color: white
+    border-bottom-left-radius: $border-raduis
+    width: 290px
+
+#price
+    font-style: normal
+    font-weight: bold
+    font-size: 35px
+
+span
+    color: $light_gray
+    
+
+button
+    background-color: $bright_yellow
+    color: white
+    font-size: 16px
+    border: none
+    border-radius: 5px
+    box-shadow: 2px 2px 10px gray
+    padding: 15px
+    margin-top: 20px
+    width: 100%
+
+    &:active
+        box-shadow: none
+
+
+
+#why_us
+    background-color: $lighter_cyan
+    border-bottom-right-radius: $border-raduis
+    width: 290px
+
+ul
+    list-style: none
+    padding: 0
+
+    li
+        padding: 2px
+
+
+@media screen and (max-width: 750px) 
+    
+    #container, #intro, #pricing, #why_us
+        width: 375px
+
+    #container
+        margin-top: 30px
+
+    #intro .gray_text
+        line-height: 30px 
+
+    #pricing
+        border-bottom-left-radius: 0px
+
+    #why_us
+        border-bottom-left-radius: $border-raduis

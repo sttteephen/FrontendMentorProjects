@@ -1,0 +1,150 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  padding-top: 50px;
+  background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+  background-position: bottom right, top left;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.container {
+  width: 1250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+h1 {
+  color: #502050;
+  font-weight: 700;
+  font-size: 40px;
+  padding-right: 150px;
+  margin-bottom: 5px;
+}
+
+#intro {
+  width: 500px;
+}
+
+#intro_text {
+  color: #937b92;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+#ratings {
+  width: 600px;
+}
+
+.rating {
+  background-color: #fff0fe;
+  color: #502050;
+  font-weight: 700;
+  width: 450px;
+  padding: 20px 20px 20px 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.last_star {
+  padding-right: 25px;
+}
+
+#report_guru_rating {
+  margin-left: 50px;
+}
+
+#besttech_rating {
+  margin-left: 100px;
+}
+
+#reviews {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.review {
+  background-color: #502050;
+  color: white;
+  width: 390px;
+  height: 260px;
+  border-radius: 7px;
+}
+
+.inner_review {
+  width: 300px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#irene_review {
+  margin-top: 20px;
+}
+
+#anne_review {
+  margin-top: 40px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 0px 20px;
+}
+
+.name_div {
+  padding-left: 25px;
+}
+
+.name_div p {
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+#reviews img {
+  border-radius: 90px;
+  width: 60px;
+}
+
+.name {
+  color: white;
+  font-weight: 700;
+}
+
+.verified {
+  color: #937b92;
+}
+/*# sourceMappingURL=style.css.map */

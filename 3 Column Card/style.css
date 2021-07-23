@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#card {
+    background-color: green;
+    width: 1080px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    margin: 200px auto 0px auto;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+.car {
+    width: 360px;
+    padding: 40px;
+}
+
+#sedan {
+    background-color: #E18625;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#suv {
+    background-color: #056972;
+}
+
+#luxury {
+    background-color: #01403F;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 35px;
+    font-weight: 100;
+}
+
+button {
+    margin-top: 60px;
+    color: inherit;
+    border: none;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 25px 12px 25px;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+#sedan button {
+    color: #E18625;
+}
+
+#suv button {
+    color: #056972;
+}
+
+#luxury button {
+    color: #01403F;
+}
+
+@media screen and (max-width: 1000px) {
+    #card {
+        flex-direction: column;
+        width: 360px;
+        margin: 100px auto 0px auto;
+    }
+    
+    #sedan {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #luxury {
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
