@@ -3,6 +3,7 @@ $green: hsl(154, 59%, 51%)
 $blue : hsl(248, 32%, 49%)
 $dark_blue: hsl(249, 10%, 26%) 
 $grayish_blue: hsl(246, 25%, 77%)
+$shadow: 0px 5px 2px
 
 $border-raduis: 10px
 $font: 'Poppins', sans-serif
@@ -21,9 +22,8 @@ body
     align-items: center
 
 section
-    width: 35rem
+    width: 32rem
     margin: 0 10px 0 10px
-
 
 h1
     font-weight: 700
@@ -39,7 +39,7 @@ h1
     text-align: center
     border-radius: $border-raduis
     padding: 0.8rem 0 0.8rem 0
-    box-shadow: 0px 5px 2px #D76667
+    box-shadow: $shadow #D76667
     margin-bottom: 1rem
 
     strong
@@ -50,8 +50,8 @@ h1
     background: white
     text-align: center
     border-radius: $border-raduis
-    box-shadow: 0px 5px 2px #D76667
-    padding: 1rem
+    box-shadow: $shadow #D76667
+    padding: 1rem 0 2rem 0
 
 input
     font-family: $font
@@ -61,18 +61,43 @@ input
     width: 85%
     border: 1px solid $grayish_blue
     border-radius: 5px
-    padding: 1rem 0rem 1rem 1rem
+    padding: 1rem 0rem 1rem 1.5rem
     margin: 1rem auto
 
 input[type="submit"]
     background: $green
+    border: none
     color: white
     font-weight: 500 
+    box-shadow: 0px 5px 0px #30BD7D
+    position: relative
+    top: 0
+
+
+    &:active
+        box-shadow: none
+        top: 0.4rem
+    
 
 #terms
     color: $grayish_blue
-    font-size: 0.8rem
+    font-size: 0.7rem
+    padding: 0 2rem
 
     a
         color: $red
         font-weight: 600
+
+
+@media screen and ( max-width: 1000px )
+    
+    .container 
+        margin: 50px auto
+        flex-direction: column
+
+    section
+        text-align: center
+        margin-bottom: 3rem
+        width: 25rem
+
+    
