@@ -8,48 +8,33 @@
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <div id="profile_card">
 
-    <div id="picture">
-      <img src="images/image-victor.jpg" alt="profile picture">
+  <div class="card">
+    <img src="images/image-victor.jpg" alt="profile photo">
+    
+    <div id="info_top">
+      <i id="name">Victor Crest</i> <i class="gray_text" id="age">26</i>
+    </div>
+  
+    <div id="info_bottom">
+      <i class="gray_text" id="location">London</i>
     </div>
 
-    <div>
-      <h1 id="name">Victor Crest</h1>
-      <span id="age">26</span>
+    <div class="grid_container">
+      <div class="grid_item top_row" id="grid_11">80K</div>
+      <div class="grid_item top_row" id="grid_12">803K</div>
+      <div class="grid_item top_row" id="grid_13">1.4K</div>
+      <div class="grid_item bottom_row gray_text" id="grid_21">Followers</div>
+      <div class="grid_item bottom_row gray_text" id="grid_22">Likes</div>
+      <div class="grid_item bottom_row gray_text" id="grid_23">Photos</div>
     </div>
-    <p>London</p>
-
-    <hr>
-
-    <table>
-      <tr>
-        <td class="stat">80K</td>
-        <td class="stat">803K</td>
-        <td class="stat">1.4K</td>
-      </tr>
-      <tr>
-        <td class="heading">Followers</td>
-        <td class="heading">Likes</td>
-        <td class="heading">Photos</td>
-      </tr>
-    </table>
-
   </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>

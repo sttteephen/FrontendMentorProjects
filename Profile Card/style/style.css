@@ -1,0 +1,121 @@
+body {
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+  background-position: -400px -400px, 500px 400px;
+  background-color: #1DA1AD;
+}
+
+.gray_text {
+  color: #6a6f81;
+}
+
+.card {
+  width: 21rem;
+  margin: 150px auto;
+  border-radius: 10px;
+  background: url("../images/bg-pattern-card.svg") top no-repeat;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+  -webkit-box-shadow: 0px 0px 100px #0000007F;
+          box-shadow: 0px 0px 100px #0000007F;
+}
+
+img {
+  border: 0.3rem solid white;
+  border-radius: 90px;
+  width: 5.75rem;
+  margin: 5.75rem auto 1rem auto;
+}
+
+i {
+  font-style: normal;
+}
+
+#name {
+  font-weight: 700;
+}
+
+#location {
+  font-size: .75rem;
+}
+
+#info_top {
+  margin-bottom: .5rem;
+}
+
+#info_bottom {
+  margin-bottom: 1.5rem;
+}
+
+.grid_container {
+  display: -ms-grid;
+  display: grid;
+  padding: 1.5rem;
+  border-top: 1px solid #E7E7E7;
+}
+
+.top_row {
+  font-weight: 700;
+  margin-bottom: .3rem;
+}
+
+.bottom_row {
+  font-size: .65rem;
+  letter-spacing: 2px;
+}
+
+#grid_11 {
+  -ms-grid-column: 1;
+  grid-column: 1 / 1;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+}
+
+#grid_12 {
+  -ms-grid-column: 2;
+  grid-column: 2 / 2;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+}
+
+#grid_13 {
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+}
+
+#grid_21 {
+  -ms-grid-column: 1;
+  grid-column: 1 / 1;
+  -ms-grid-row: 2;
+  grid-row: 2 / 2;
+}
+
+#grid_22 {
+  -ms-grid-column: 2;
+  grid-column: 2 / 2;
+  -ms-grid-row: 2;
+  grid-row: 2 / 2;
+}
+
+#grid_23 {
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+  -ms-grid-row: 2;
+  grid-row: 2 / 2;
+}
+/*# sourceMappingURL=style.css.map */
