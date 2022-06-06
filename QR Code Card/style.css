@@ -1,0 +1,13 @@
+.container {
+    margin-top: 100px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #9EA1A6;
+}
